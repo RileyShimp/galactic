@@ -31,4 +31,8 @@ export default class Age {
   earthYearsLeft() {
     return this.earthExpect = Math.floor(72 - this.earth);
   }
+
+  mercuryYearsLeft() {
+    return this.mercuryExpect = Math.floor(299 - Math.floor(this.earth * 4.16));
+  }
 }
