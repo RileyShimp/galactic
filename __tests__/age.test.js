@@ -23,4 +23,8 @@ describe('age', () => {
   test('should correctly determine venus age based on age entered', () => {
     expect(age.venusCalc()).toEqual(16);
   })
+
+  test('should correctly determine mars age based on age entered', () => {
+    expect(age.marsCalc()).toEqual(18);
+  })
 });
