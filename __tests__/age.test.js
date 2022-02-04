@@ -33,10 +33,14 @@ describe('age', () => {
   });
 
   test('should correctly provide a life expectancy for each planet', () => {
-    expect(age.earthExpect).toEqual(72);
+    expect(age.earthExpect).toEqual(0);
     expect(age.mercuryExpect).toEqual(0);
     expect(age.venusExpect).toEqual(0);
     expect(age.marsExpect).toEqual(0);
     expect(age.jupiterExpect).toEqual(0);
   });
+
+  test('should correctly determine expected amount of years left on earth', () => {
+    expect(age.earthYearsLeft()).toEqual(52);
+  })
 });

@@ -1,7 +1,7 @@
 export default class Age {
   constructor(age) {
     this.earth = age
-    this.earthExpect = 72;
+    this.earthExpect = 0;
     this.mercury = 0;
     this.mercuryExpect = 0;
     this.venus = 0;
