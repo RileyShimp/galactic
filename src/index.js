@@ -22,6 +22,6 @@ $(document).ready(function() {
     $('#venusAge').text(userAge.venus);
     $('#marsAge').text(userAge.mars);
     $('#jupiterAge').text(userAge.jupiter);
+    $('#results').fadeIn();
   });
-
 });

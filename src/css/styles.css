@@ -1,0 +1,22 @@
+body {
+  background-color: bisque;
+}
+
+header {
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 40px;
+}
+
+label {
+  font-size: x-large;
+  padding-left: 20px;
+}
+
+.card {
+margin : 20px;
+}
+
+#results {
+  display: none;
+}
