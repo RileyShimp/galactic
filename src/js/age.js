@@ -43,4 +43,8 @@ export default class Age {
   marsYearsLeft() {
     return this.marsExpect = Math.floor(38 - Math.floor(this.earth / 1.88));
   }
+
+  jupiterYearsLeft() {
+    return this.jupiterExpect = Math.floor(6 - Math.floor(this.earth / 11.86));
+  }
 }
