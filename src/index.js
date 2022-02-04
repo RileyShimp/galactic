@@ -9,5 +9,19 @@ $(document).ready(function() {
     event.preventDefault();
     const ageInput = parseInt($('#ageInput').val())
     const userAge = new Age(ageInput);
+    userAge.mercuryCalc();
+    userAge.venusCalc();
+    userAge.marsCalc();
+    userAge.jupiterCalc();
+    userAge.earthYearsLeft();
+    userAge.mercuryYearsLeft();
+    userAge.venusYearsLeft();
+    userAge.marsYearsLeft();
+    userAge.jupiterYearsLeft();
+    $('#mercuryAge').text(userAge.mercury);
+    $('#venusAge').text(userAge.venus);
+    $('#marsAge').text(userAge.mars);
+    $('#jupiterAge').text(userAge.jupiter);
   });
+
 });
