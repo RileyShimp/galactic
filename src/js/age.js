@@ -28,24 +28,24 @@ export default class Age {
     return this.jupiter = Math.floor(this.earth / 11.86);
   }
 
-  // earthYearsLeft() {
-  //   return this.earthExpect = Math.floor(72 - this.earth);
-  // }
+  earthYearsLeft() {
+    return this.earthExpect = Math.abs(Math.floor(72 - this.earth));
+  }
 
-  // mercuryYearsLeft() {
-  //   return this.mercuryExpect = Math.floor(299 - Math.floor(this.earth * 4.16));
-  // }
+  mercuryYearsLeft() {
+    return this.mercuryExpect = Math.abs(Math.floor(299 - Math.floor(this.earth * 4.16)));
+  }
 
-  // venusYearsLeft() {
-  //   return this.venusExpect = Math.floor(115 - Math.floor(this.earth * 1.61));
-  // }
+  venusYearsLeft() {
+    return this.venusExpect = Math.abs(Math.floor(115 - Math.floor(this.earth * 1.61)));
+  }
 
-  // marsYearsLeft() {
-  //   return this.marsExpect = Math.floor(38 - Math.floor(this.earth / 1.88));
-  // }
+  marsYearsLeft() {
+    return this.marsExpect = Math.abs(Math.floor(38 - Math.floor(this.earth / 1.88)));
+  }
 
-  // jupiterYearsLeft() {
-  //   return this.jupiterExpect = Math.floor(6 - Math.floor(this.earth / 11.86));
-  // }
+  jupiterYearsLeft() {
+    return this.jupiterExpect = Math.abs(Math.floor(6 - Math.floor(this.earth / 11.86)));
+  }
 
 }

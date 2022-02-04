@@ -68,6 +68,6 @@ describe('age', () => {
   test('should return a positive number years if age is greater than expectancy', () => {
     const oldAge = new Age(82);
     oldAge.earthYearsLeft();
-    expect(age.earthExpect).toEqual(10);
+    expect(oldAge.earthExpect).toEqual(10);
   });
 });
