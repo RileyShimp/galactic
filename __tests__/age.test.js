@@ -2,9 +2,14 @@ import Age from '../src/js/age.js';
 
 describe('age', () => {
 
+  let age;
+
+  beforeEach(() => {
+    age = new Age(10);
+  });
+
   test('should correctly return an age for 5 planets', () => {
-    const age = new Age(21);
-    expect(age.earth).toEqual(21)
+    expect(age.earth).toEqual(10)
     expect(age.mercury).toEqual(0);
     expect(age.venus).toEqual(0);
     expect(age.mars).toEqual(0);
@@ -12,7 +17,10 @@ describe('age', () => {
   });
 
   test('should correctly determine mercury age based on age entered', () => {
-    const age1 = new Age(10);
-    expect(age1.mercuryCalc()).toEqual(41);
+    expect(age.mercuryCalc()).toEqual(41);
   });
+
+  test('should correctly determine venus age based on age entered', () => {
+    expect(age.venusCalc()).toEqual(16);
+  })
 });
