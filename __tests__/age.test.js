@@ -55,4 +55,8 @@ describe('age', () => {
   test('should correctly determine expected amount of years left on mars', () => {
     expect(age.marsYearsLeft()).toEqual(28);
   });
+
+  test('should correctly determine expected amount of years left on jupiter', () => {
+    expect(age.jupiterYearsLeft()).toEqual(5);
+  });
 });
