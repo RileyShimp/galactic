@@ -27,4 +27,8 @@ export default class Age {
   jupiterCalc() {
     return this.jupiter = Math.floor(this.earth / 11.86);
   }
+
+  earthYearsLeft() {
+    return this.earthExpect = Math.floor(72 - this.earth);
+  }
 }
