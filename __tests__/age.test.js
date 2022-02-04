@@ -25,6 +25,6 @@ describe('age', () => {
   })
 
   test('should correctly determine mars age based on age entered', () => {
-    expect(age.marsCalc()).toEqual(18);
+    expect(age.marsCalc()).toEqual(5);
   })
 });
