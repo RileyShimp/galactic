@@ -39,4 +39,8 @@ export default class Age {
   venusYearsLeft() {
     return this.venusExpect = Math.floor(115 - Math.floor(this.earth * 1.61));
   }
+
+  marsYearsLeft() {
+    return this.marsExpect = Math.floor(38 - Math.floor(this.earth / 1.88));
+  }
 }
