@@ -9,4 +9,9 @@ describe('age', () => {
     expect(age.mars).toEqual();
     expect(age.jupiter).toEqual();
   });
+
+  test('should correctly determine mercury age based on age entered', () => {
+    const age1 = new Age(10);
+    expect(age1.mercuryCalc()).toEqual(41);
+  })
 });
