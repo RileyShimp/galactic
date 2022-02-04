@@ -13,7 +13,7 @@ export default class Age {
   }
 
   mercuryCalc() {
-    return this.mercury = Math.floor(this.earth * 4.16)
+    return this.mercury = Math.floor(this.earth * 4.16);
   }
 
   venusCalc() {
@@ -47,5 +47,4 @@ export default class Age {
   jupiterYearsLeft() {
     return this.jupiterExpect = Math.abs(Math.floor(6 - Math.floor(this.earth / 11.86)));
   }
-
 }
