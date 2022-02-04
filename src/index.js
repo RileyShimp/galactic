@@ -22,6 +22,10 @@ $(document).ready(function() {
     $('#venusAge').text(userAge.venus);
     $('#marsAge').text(userAge.mars);
     $('#jupiterAge').text(userAge.jupiter);
-    $('#results').fadeIn();
+    $('#mercuryExpect').text(userAge.mercuryExpect);
+    $('#venusExpect').text(userAge.venusExpect);
+    $('#marsExpect').text(userAge.marsExpect);
+    $('#jupiterExpect').text(userAge.jupiterExpect);
+    $('.results').fadeIn();
   });
 });

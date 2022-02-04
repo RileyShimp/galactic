@@ -17,6 +17,6 @@ label {
 margin : 20px;
 }
 
-#results {
+.results {
   display: none;
 }
