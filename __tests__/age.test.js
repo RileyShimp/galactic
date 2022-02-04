@@ -42,21 +42,32 @@ describe('age', () => {
 
   test('should correctly determine expected amount of years left on earth', () => {
     expect(age.earthYearsLeft()).toEqual(52);
+    expect(age.earthExpect).toEqual(52)
   });
 
   test('should correctly determine expected amount of years left on mercury', () => {
     expect(age.mercuryYearsLeft()).toEqual(216);
+    expect(age.mercuryExpect).toEqual(216)
   });
 
   test('should correctly determine expected amount of years left on venus', () => {
     expect(age.venusYearsLeft()).toEqual(83);
+    expect(age.venusExpect).toEqual(83)
   });
 
   test('should correctly determine expected amount of years left on mars', () => {
     expect(age.marsYearsLeft()).toEqual(28);
+    expect(age.marsExpect).toEqual(28)
   });
 
   test('should correctly determine expected amount of years left on jupiter', () => {
     expect(age.jupiterYearsLeft()).toEqual(5);
+    expect(age.jupiterExpect).toEqual(5)
+  });
+
+  test('should return a positive number years if age is greater than expectancy', () => {
+    const oldAge = new Age(82);
+    oldAge.earthYearsLeft();
+    expect(age.earthExpect).toEqual(10);
   });
 });
