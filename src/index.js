@@ -22,10 +22,18 @@ $(document).ready(function() {
     $('#venusAge').text(userAge.venus);
     $('#marsAge').text(userAge.mars);
     $('#jupiterAge').text(userAge.jupiter);
-    $('#mercuryExpect').text(userAge.mercuryExpect);
-    $('#venusExpect').text(userAge.venusExpect);
-    $('#marsExpect').text(userAge.marsExpect);
-    $('#jupiterExpect').text(userAge.jupiterExpect);
-    $('.results').fadeIn();
+    $('.mercuryExpect').text(userAge.mercuryExpect);
+    $('.venusExpect').text(userAge.venusExpect);
+    $('.marsExpect').text(userAge.marsExpect);
+    $('.jupiterExpect').text(userAge.jupiterExpect);
+    $('#results').fadeIn();
+    if (ageInput <= 72) {
+      $('#results3').hide();
+      $('#results2').fadeIn();
+    }
+    else if (ageInput >= 72) {
+      $('#results2').hide();
+      $('#results3').show();
+    }
   });
 });

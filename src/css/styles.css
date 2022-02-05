@@ -17,6 +17,14 @@ label {
 margin : 20px;
 }
 
-.results {
+#results {
+  display: none;
+}
+
+#results2 {
+  display: none;
+}
+
+#results3 {
   display: none;
 }
