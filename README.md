@@ -1,8 +1,8 @@
-# (Application Name)
+# Galactic Age
 
-#### (Brief Description of Application)
+[Github Pages Link](https://rileyshimp.github.io/galactic/)
 
-#### By (Your Name Here)
+#### [Riley Shimp](https://www.github.com/rileyshimp)
 
 ## Technologies Used
 
@@ -18,20 +18,34 @@
 * Babel
 
 ## Description
+This is a page that can calculate what your age would be on different planets! Enter your age and see how old you are on Mercury, Venus, Mars or Jupiter! It also provides a life expectancy based on each planets year.
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+Open this [Github Pages Link](https://rileyshimp.github.io/galactic/) in your browser.
+
+or follow the instructions below..
+
+### Step 1
+Clone the repository:
+``` 
+$ git clone https://github.com/RileyShimp/galactic.git 
+```
+### Step 2
+Navigate to the `Galactic Age` directory on your computer.
+### Step 3
+Run the command `npm install` to install dependencies
+### Step 4
+Optionally, run the command `npm run build` to make a bundle of the files
+### Step 5
+Finally, run the command `npm run start` to start a development server
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* none
 
 ## License
 
-## Contact Information
+[MIT](https://opensource.org/licenses/MIT)
+
+Copyright (c) 01/07/2022 Riley Shimp
