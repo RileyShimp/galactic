@@ -9,7 +9,7 @@ describe('age', () => {
   });
 
   test('should correctly return an age for 5 planets', () => {
-    expect(age.earth).toEqual(20)
+    expect(age.earth).toEqual(20);
     expect(age.mercury).toEqual(0);
     expect(age.venus).toEqual(0);
     expect(age.mars).toEqual(0);
