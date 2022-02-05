@@ -1,7 +1,5 @@
 # Galactic Age
 
-[Github Pages Link](https://rileyshimp.github.io/galactic/)
-
 #### [Riley Shimp](https://www.github.com/rileyshimp)
 
 ## Technologies Used
@@ -21,10 +19,6 @@
 This is a page that can calculate what your age would be on different planets! Enter your age and see how old you are on Mercury, Venus, Mars or Jupiter! It also provides a life expectancy based on each planets year.
 
 ## Setup/Installation Requirements
-
-Open this [Github Pages Link](https://rileyshimp.github.io/galactic/) in your browser.
-
-or follow the instructions below..
 
 ### Step 1
 Clone the repository:
