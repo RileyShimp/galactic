@@ -34,6 +34,12 @@ Optionally, run the command `npm run build` to make a bundle of the files
 ### Step 5
 Finally, run the command `npm run start` to start a development server
 
+### Steps for testing
+
+Once you have already run `npm install`, you can run `npm test` in your terminal. Your terminal will show which tests are passing, which are failing, and the percentage of lines the tests covered.
+
+Specific tests are written and can be found in the "tests" folder.
+
 ## Known Bugs
 
 * none
